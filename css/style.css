@@ -1,0 +1,144 @@
+:root {
+  --black-main: #0B0B0B;
+  --black-secondary: #1A1A1A;
+  --gray-dark: #2A2A2A;
+
+  --gold-main: #D4AF37;
+  --gold-light: #F2D16B;
+
+  --white-soft: #F5F5F5;
+  --gray-light: #CFCFCF;
+}
+
+/* GENERAL */
+body {
+    background: var(--black-main);
+    color: var(--white-soft);
+}
+
+/* NAVBAR */
+.navbar-custom {
+    background: var(--black-main);
+    border-bottom: 1px solid var(--gray-dark);
+}
+
+.nav-link {
+    color: var(--white-soft) !important;
+    margin-left: 20px;
+}
+
+.nav-link:hover {
+    color: var(--gold-main) !important;
+}
+
+/* HERO */
+.hero {
+    padding: 120px 20px;
+}
+
+.hero h1 {
+    font-size: 60px;
+    color: var(--gold-main);
+}
+
+.hero h2 {
+    font-size: 40px;
+    color: var(--gold-main);
+}
+.hero p {
+    color: var(--gray-light);
+}
+
+/* BOTON DORADO */
+.btn-gold {
+    background: var(--gold-main);
+    color: black;
+    border: none;
+}
+
+.btn-gold:hover {
+    background: var(--gold-light);
+    color: black;
+}
+
+/* CARDS */
+.card-custom {
+    background: var(--black-secondary);
+    border: 1px solid var(--gray-dark);
+    transition: 0.3s;
+    color:  #CFCFCF;
+    text-align: center;
+}
+
+.card-custom:hover {
+    border-color: var(--gold-main);
+    transform: translateY(-5px);
+    text-align: center;
+}
+
+.card-centrado{
+    text-align: center;
+}
+.gold {
+    color: var(--gold-main);
+}
+
+/* MAPA */
+.mapa{
+    width: 100%;        
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* FOOTER */
+footer {
+    border-top: 1px solid var(--gray-dark);
+    color: var(--gray-light);
+}
+
+.imagenes {
+    width: 100%;        
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* IMAGEN */
+.img-card {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;  
+}
+
+
+.contenedor {
+    width: 100%;
+}
+
+/* CAJA FLEX */
+.caja {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* IMAGEN */
+.caja img {
+    width: 250px;
+    height: auto;
+    margin-right: 20px;
+}
+
+/* TEXTO */
+.texto {
+    flex: 1;
+}
+
+h2 {
+    margin: 0;
+}
