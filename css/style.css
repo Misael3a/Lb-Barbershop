@@ -134,6 +134,14 @@ footer {
     margin-right: 20px;
 }
 
+.carousel-fade{
+    background-color: aqua;
+}
+
+.carousel-item video {
+    height: 400px;      
+    object-fit: cover; 
+}
 /* TEXTO */
 .texto {
     flex: 1;
