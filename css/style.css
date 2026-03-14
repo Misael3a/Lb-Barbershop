@@ -11,6 +11,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .navbar-custom {
   background: #0B0B0B;
   border-bottom: 1px solid #2A2A2A;
