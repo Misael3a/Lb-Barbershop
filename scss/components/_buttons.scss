@@ -1,0 +1,34 @@
+.btn-base {
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-gold {
+
+    @extend .btn-base;
+
+    background: $gold-main;
+    color: black;
+
+    &:hover {
+        background: $gold-light;
+    }
+
+}
+
+.btn-club {
+
+    @extend .btn-base;
+
+    background: $gold-main;
+    border-radius: 30px;
+
+    &:hover {
+        background: $gold-light;
+    }
+
+}
+

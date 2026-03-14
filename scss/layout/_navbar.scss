@@ -1,0 +1,18 @@
+.navbar-custom {
+
+    background: $black-main;
+    border-bottom: 1px solid $gray-dark;
+
+    .nav-link {
+
+        color: $white-soft;
+        margin-left: 20px;
+        font-weight: 500;
+
+        &:hover {
+            color: $gold-main;
+        }
+
+    }
+
+}
